@@ -49,7 +49,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	scroll-behavior: smooth;
+	scroll-behavior: smooth; /* makes the page scroll smoothly */
 }
 
 article, aside, details, figcaption, figure,
@@ -2722,6 +2722,8 @@ input, select, textarea {
 			max-width: 48em;
 			width: 60%;
 		}
+
+		/* The below is commented out b/c it affects the color of the sections to be "divided" (have a line between them) */
 
 		/* .spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
