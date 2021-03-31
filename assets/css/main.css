@@ -30,6 +30,28 @@
 	text-align: left;
 }
 
+#contact-me {
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+    width: 60rem;
+    max-width: 85%;
+    background-color: rgba(27, 31, 34, 0.85);
+    border-radius: 4px;
+}
+
+#contact-me fieldset label {
+	text-align: left;
+}
+
+#contact-me fieldset input {
+	margin-bottom: 1em;
+}
+
+#contact-me input[type="submit"] {
+	margin-top: 2.5em;
+	background-color: #fff;
+	color: #1b1f22 !important;;
+}
+
 /* From Template */
 
 html, body, div, span, applet, object,
