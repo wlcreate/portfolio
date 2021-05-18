@@ -30,6 +30,14 @@
 	text-align: left;
 }
 
+#about-me-content p {
+	color: #fff;
+}
+
+#blogpost-p {
+	color: #fff;
+}
+
 #contact-me {
     padding: 4.5rem 2.5rem 1.5rem 2.5rem;
     width: 60rem;
