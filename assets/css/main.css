@@ -40,10 +40,20 @@
 
 #contact-me {
     padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-    width: 60rem;
     max-width: 85%;
     background-color: rgba(27, 31, 34, 0.85);
     border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+	#contact-me {
+		padding: 2.5rem 1.25rem;
+		max-width: 100%;
+	}
+
+	#fs-frm {
+		margin: 0;
+	}
 }
 
 #contact-me fieldset label {
@@ -58,6 +68,10 @@
 	margin-top: 2.5em;
 	background-color: #fff;
 	color: #1b1f22 !important;;
+}
+
+#contact-me input[type="reset"] {
+	margin-top: 1em;
 }
 
 /* From Template */
